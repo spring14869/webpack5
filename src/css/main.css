@@ -1,0 +1,44 @@
+
+body {
+    background-color: #ccc;
+}
+.header {
+    background-color: green;
+    margin-bottom: 12px;
+    border-bottom: 4px solid goldenrod;
+    padding: 6px 12px;
+}
+
+.header > h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.content {
+    padding: 12px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.album {
+    border: 1px dotted grey;
+    margin: 12px 0;
+}
+
+.box {
+    display: inline-block;
+    overflow: hidden;
+    background-color: beige;
+    padding: 0;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 6px #000;
+    margin: 12px;
+    width: 240px;
+    height: 240px;
+    background-image: url('../assets/images/300x300_01.jpeg');
+}
+
+.box > img {
+    width: 100%;
+}
